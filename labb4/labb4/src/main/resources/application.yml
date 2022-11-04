@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/hotel_model
+    username: root
+    password: BC6310
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    spring:
+      main:
+        allow-bean-definition-overriding=true
